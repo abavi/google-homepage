@@ -1,3 +1,39 @@
-h1 {
-    color: red;
+body {
+    font-family: Arial, sans-serif;
+}
+
+.top-bar {
+   position: absolute;   
+   top: 25px;
+   left: 20px;
+   right: 25px;
+   word-spacing: 15px;
+   font-size: 12px;   
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 87);
+}
+
+a.pages:hover{
+    text-decoration: underline;
+}
+
+.top-bar-right {
+    float: right;
+}
+
+.top-bar-right #sign-in {
+    word-spacing: normal;
+    background-color: rgb(57, 112, 184);
+    color: white;
+    padding: 7px 15px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+#square {
+    position: relative;   
+    width: 30px;   
 }
