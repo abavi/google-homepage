@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    color: rgb(82, 79, 79);        
 }
 
 .top-bar {
@@ -8,7 +9,7 @@ body {
    left: 20px;
    right: 25px;
    word-spacing: 15px;
-   font-size: 12px;   
+   font-size: 12px; 
 }
 
 a {
@@ -44,9 +45,61 @@ a.pages:hover{
     left: 20px;
     right: 25px;
     font-size: 12px;
-    word-spacing: 15px;
+    word-spacing: 15px;   
 }
 
 .bottom-bar-right {
     float: right;
+}
+
+.middle {
+    position: relative;
+    padding: 35px;
+    margin-top: 75px;       
+}
+
+#logo {       
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width: 575px;
+}
+
+
+input {
+    width: 500px; 
+    display: block;
+    position: relative; 
+    margin-top: -50px;   
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;  
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.buttons {
+    font-size: 14px;
+    margin-top: 10px;
+    border: 1px solid transparent;
+}
+
+#search-button {
+    display: inline-block;
+    margin-left: 375px;
+    margin-right: 150px;
+    position: absolute;
+    padding: 10px;
+}
+
+#lucky-button {
+    float: right;
+    margin-right: 375px;
+    padding: 10px;
+}
+
+a.buttons:hover {
+    border: 1px solid rgb(199, 199, 199);    
 }
