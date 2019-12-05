@@ -37,3 +37,16 @@ a.pages:hover{
     position: relative;   
     width: 30px;   
 }
+
+.bottom-bar {
+    position: absolute;
+    bottom: 15px;       
+    left: 20px;
+    right: 25px;
+    font-size: 12px;
+    word-spacing: 15px;
+}
+
+.bottom-bar-right {
+    float: right;
+}
